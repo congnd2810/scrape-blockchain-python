@@ -15,12 +15,11 @@ import time
 listFodlers = glob.glob('./data/*')
 
 for folder in listFodlers:
-    folderName = folder.split('\\')[-1]
+    folderName = folder.split('/')[-1]
     if not os.path.exists(f'./dataHtml/{folderName}'):
         os.mkdir(f'./dataHtml/{folderName}')
-    print(folderName)
     for file in glob.glob(f'{folder}/*'):
-        fileName = file.split('\\')[-1].replace('.json', '')
+        fileName = file.split('/')[-1].replace('.json', '')
         if not os.path.exists(f'./dataHtml/{folderName}/{fileName}'):
             os.mkdir(f'./dataHtml/{folderName}/{fileName}')
         f = open(file, 'r', encoding='utf-8')
@@ -31,15 +30,17 @@ for folder in listFodlers:
             chrome_options.add_experimental_option("detach", True)
             driver = webdriver.Chrome(chrome_options)
             # print(url)
-            driver.get(url)
-            time.sleep(2)
-            content = driver.find_element(
-                By.CSS_SELECTOR, "#post-content-colCenter")
-            htmlContent = content.get_attribute('outerHTML')
+            try:
+                driver.get(url)
+                time.sleep(2)
+                content = driver.find_element(
+                    By.CSS_SELECTOR, "#post-content-colCenter")
+                htmlContent = content.get_attribute('outerHTML')
 
-            with open(f"{urlname}.html", "w", encoding="utf-8") as file:
-                file.write(htmlContent)
-            driver.quit()
-            break
-        break
-    break
+                with open(f"./dataHtml/{folderName}/{fileName}/{urlname}.html", "w", encoding="utf-8") as file:
+                    file.write(htmlContent)
+                driver.quit()
+            except:
+                print(f'error {url} from {file} and {folder}')            
+        print(f'done {fileName}')
+    print(f'done {folderName}')
