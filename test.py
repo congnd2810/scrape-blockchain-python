@@ -2,7 +2,7 @@ import base64
 import requests
 
 # OpenAI API Key
-api_key = "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"
+api_key = ""
 
 # Function to encode the image
 
@@ -13,10 +13,11 @@ def encode_image(image_path):
 
 
 # Path to your image
-image_path = "./hoa2.png"
-
+image_path1 = "./tonkin-1-600-piastres-1905.jpg"
+image_path2 = './tonkin-1-600-piastres-1905 (1).jpg'
 # Getting the base64 string
-base64_image = encode_image(image_path)
+base64_image1 = encode_image(image_path1)
+base64_image2 = encode_image(image_path2)
 
 headers = {
     "Content-Type": "application/json",
@@ -31,12 +32,12 @@ payload = {
             "content": [
                 {
                     "type": "text",
-                    "text": "giải bài trong ảnh, không quan tâm phần đỏ"
+                    "text": "đây là 2 mặt đồng xu của nước nào? thông tin chi tiết của đồng tiền này"
                 },
                 {
                     "type": "image_url",
                     "image_url": {
-                        "url": f"data:image/jpeg;base64,{base64_image}"
+                        "url": f"data:image/jpeg;base64,{base64_image2}"
                     }
                 }
             ]
