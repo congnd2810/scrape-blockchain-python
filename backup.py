@@ -31,7 +31,7 @@ blockchainAndDefi_hesinhthai = 'https://coin98.net/portal/detail?subCategories=8
 kttc_tochuctaichinh = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BThJJ3rAG-2Da_i729N_cr'
 kttc_sk = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BwlKv8SwWvOVGQAAmmwdeI'
 
-trading = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2Bj_XEoJCAGTKSUESE0Z1gf%2BN2konauHE-iDOkRmHgvys'
+trading = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2Bj_XEoJCAGTKSUESE0Z1gf'
 
 
 report = 'https://coin98.net/report'
@@ -43,7 +43,7 @@ chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(chrome_options)
 driver.set_page_load_timeout(10)
 
-driver.get(trading)
+driver.get(cryptoForNewUser)
 
 
 def requests_complete(driver):
@@ -56,7 +56,7 @@ time.sleep(2)
 # articles = driver.find_elements(
 #     By.CSS_SELECTOR, "#layout-normal-minHeight > main > div > div.style_contentSeries__2YVxe > div > div.style_posts__KmXDx > div > div.style_posts__8cqkq > div")
 articles = driver.find_elements(
-    By.CSS_SELECTOR, "#channel-body > div.max-w-w1440.w-full.mx-auto.relative.pt-sp200.md\:pt-1600.lg\:pt-1000.flex > div.w-full.lg\:w-\[calc\(100\%-320px\)\].pl-0.flex.justify-center.lg\:ml-auto > div > div.flex.flex-col.mx-auto.w-full.max-w-w728 > div")
+    By.CSS_SELECTOR, "#layout-normal-minHeight > main > div > div.style_contentWrapper__ixUnP.style_isCoin98__TqZ_W.style_content__TK5yo > div.style_resultWrapper__jFum7 > div > div:nth-child(1) > div")
 
 # wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,
 #            "#layout-normal-minHeight > main > div > div.style_contentSeries__2YVxe > div > div.style_posts__KmXDx > div > div.style_posts__8cqkq")))
@@ -84,14 +84,7 @@ while True:
     '''
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(2)
-    newArticles = driver.find_elements(
-        By.CSS_SELECTOR, "#channel-body > div.max-w-w1440.w-full.mx-auto.relative.pt-sp200.md\:pt-1600.lg\:pt-1000.flex > div.w-full.lg\:w-\[calc\(100\%-320px\)\].pl-0.flex.justify-center.lg\:ml-auto > div > div.flex.flex-col.mx-auto.w-full.max-w-w728 > div")
-    print(len(newArticles))
-    if len(newArticles) > articlesLength:
-        articlesLength = len(newArticles)
-        count += 1
-    else:
-        break
+
     '''get report and inside coin98'''
     # reportArticles = driver.find_elements(
     #     By.CSS_SELECTOR, "#layout-normal-minHeight > main > div:nth-child(3) > div > div.style_customRow__l_Y1O.row > div")
@@ -99,19 +92,9 @@ while True:
     #     articlesLength = len(reportArticles)
     #     count += 1
     # else:
-    # break
-    '''*****'''
-    '''get series'''
-    # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    # time.sleep(2)
-    # articles = driver.find_elements(
-    #     By.CSS_SELECTOR, '#channel-body > div > div.flex.items-start.flex-col.lg\:flex-row > div.grow.lg\:ml-1500.lg\:mt-500 > div > a')
-    # if len(articles) > articlesLength:
-    #     articlesLength = len(articles)
-    #     count += 1
-    # else:
     #     break
-    '''***'''
+    '''*****'''
+
     # click button xem thêm
     # try:
     #     button = driver.find_element(
@@ -120,11 +103,11 @@ while True:
     # except:
     #     pass
 
-# for a in reportArticles:
-#     urlArticle = a.find_element(By.CSS_SELECTOR, "div a")
-#     newUrl = urlArticle.get_attribute('href')
-#     print(newUrl)
-#     listUrlArticales.append(newUrl)
+for a in reportArticles:
+    urlArticle = a.find_element(By.CSS_SELECTOR, "div a")
+    newUrl = urlArticle.get_attribute('href')
+    print(newUrl)
+    listUrlArticales.append(newUrl)
 
 
 # for a in articles:
@@ -132,15 +115,14 @@ while True:
 #     newUrl = urlArticle.get_attribute('href')
 #     listUrlArticales.append(newUrl)
 
-for a in articles:
-    # urlArticle = a.find_element(By.CSS_SELECTOR, "a")
-    newUrl = a.get_attribute('href')
-    listUrlArticales.append(newUrl)
+# for a in newArticles:
+#     urlArticle = a.find_element(By.CSS_SELECTOR, "div a")
+#     newUrl = urlArticle.get_attribute('href')
+#     listUrlArticales.append(newUrl)
 
-print(listUrlArticales)
-tintucbtc = {'articles': listUrlArticales}
+tintucbtc = {'articels': listUrlArticales}
 
-fjson = open(f'./dataCoin98/Learn/Trading/Trading.json',
+fjson = open(f'./dataCoin98/InsightC98/InsightC98.json',
              'w', encoding='utf-8')
 
 jsonQ = json.dumps(tintucbtc, indent=2)
