@@ -83,29 +83,25 @@ if not os.path.exists(f'./dataCoin98/Learn/{divMuaBanCryptoName}'):
     os.mkdir(f'./dataCoin98/Learn/{divMuaBanCryptoName}')
 
 subdivMuaBanCrypto = driver.find_elements(
-    By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div > div')
+    By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div')
 
-# for i in range(len(subdivMuaBanCrypto)):
-#     divName = subdivMuaBanCrypto[i]
-#     driver.find_element(
-#         By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear').click()
-#     time.sleep(2)
-#     driver.find_element(
-#         By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear').click()
-#     time.sleep(2)
-#     # driver.find_element(
-#     #     By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div > button').click()
-#     # time.sleep(2)
-#     print(divName)
-#     # div.find_element(By.CSS_SELECTOR, 'div').click()
-
-#     # print(clickButton.get_attribute("outerHTML"))
-#     pass
+for i in range(len(subdivMuaBanCrypto)):
+    divName = subdivMuaBanCrypto[i].text
+    driver.find_element(
+        By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear').click()
+    time.sleep(2)
+    driver.find_element(
+        By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div > button').click()
+    time.sleep(2)
+    print(divName)
+    # div.find_element(By.CSS_SELECTOR, 'div').click()
+    # print(clickButton.get_attribute("outerHTML"))
+    pass
 # '''## tích mục mua bán'''
-driver.find_element(
-    By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear.bg-toggle-background.group-hover\/toggleCheck\:bg-toggle-background-hovered').click()
-time.sleep(2)
-# handleToJson(driver, './dataCoin98/Learn/Mua bán Crypto/Mua bán.json')
+# driver.find_element(
+#     By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear').click()
+# time.sleep(2)
+# # handleToJson(driver, './dataCoin98/Learn/Mua bán Crypto/Mua bán.json')
 # driver.find_element(
 #     By.CSS_SELECTOR, '#sidebar-portal > div.grow > div:nth-child(5) > div.px-500.transform.opacity-100 > div:nth-child(1) > div.flex.items-center.h-300.w-300.rounded-075.p-025.transition-all.duration-200.ease-linear').click()
 # time.sleep(2)
