@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Robot",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Robot.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Robot.wav"
+  },
+  {
+    "name": "Helium",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Helium.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Helium.wav"
+  },
+  {
+    "name": "Giant",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Giant.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Giant.wav"
+  },
+  {
+    "name": "Cave",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Cave.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Cave.wav"
+  },
+  {
+    "name": "Monster",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Monster.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Monster.wav"
+  },
+  {
+    "name": "Nervors",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Nervors.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Nervors.wav"
+  },
+  {
+    "name": "Drunk",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Drunk.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Drunk.wav"
+  },
+  {
+    "name": "Squirrel",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Squirrel.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Squirrel.wav"
+  },
+  {
+    "name": "Child",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Child.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Child.wav"
+  },
+  {
+    "name": "Death",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Death.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Death.wav"
+  },
+  {
+    "name": "Reverse",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Reverse.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Reverse.wav"
+  },
+  {
+    "name": "Old man",
+    "gender": "male",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Old man.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Old man.wav"
+  },
+  {
+    "name": "Chorus",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Chorus.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Chorus.wav"
+  },
+  {
+    "name": "Foreigner",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Foreigner.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Foreigner.wav"
+  },
+  {
+    "name": "Telephone",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Telephone.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Telephone.wav"
+  },
+  {
+    "name": "Underwater",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Underwater.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Underwater.wav"
+  },
+  {
+    "name": "Duck",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Duck.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Duck.wav"
+  },
+  {
+    "name": "Fan",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Fan.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Fan.wav"
+  },
+  {
+    "name": "Horse",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Horse.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Horse.wav"
+  },
+  {
+    "name": "Big alien",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "",
+    "chat": [
+      "Hello.",
+      "Nice to see you!",
+      "Do you want to change your voice? Give me a record. I will show you how."
+    ],
+    "category": "Basic",
+    "voiceId": "Offline",
+    "thumb": "https://monster-static.voicechange.net/monsters/Big alien.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Big alien.wav"
+  },
+  {
+    "name": "Happy Cup",
+    "gender": "male",
+    "birth": "September 2022",
+    "feature": "Happy Cup is a monster. Get a way him. He want to drink you and Drinker. Luckily he couldn't move.",
+    "chat": [
+      "Hello!",
+      "You can call me Happy Cup.",
+      "Please try to record. I will show you special!"
+    ],
+    "category": "Prank Family",
+    "voiceId": "BunBun",
+    "thumb": "https://monster-static.voicechange.net/monsters/Happy Cup.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Happy Cup.wav"
+  },
+  {
+    "name": "Old Screen",
+    "gender": "male",
+    "birth": "",
+    "feature": "Old Screen is a good monster. He will guide you the right way if you lost. Don't be scared",
+    "chat": [
+      "Hello dear, I am Old Screen. Nice to meet you.",
+      "Can you message something for me?"
+    ],
+    "category": "Prank Family",
+    "voiceId": "Bunbuleena",
+    "thumb": "https://monster-static.voicechange.net/monsters/Old Screen.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Old Screen.wav"
+  },
+  {
+    "name": "Mobilirus",
+    "gender": "male",
+    "birth": "",
+    "feature": "Mobilirus has a mobile phone's shape. But don't trust him. He is very dangerous. He will trick you and lead you into a trap. Just do the opposite of his advice.",
+    "chat": [
+      "Hello my friend.",
+      "I am Mobilirus.",
+      "I can change your voice. Just send me a record. Try it!"
+    ],
+    "category": "Prank Family",
+    "voiceId": "NubNub",
+    "thumb": "https://monster-static.voicechange.net/monsters/Mobilirus.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Mobilirus.wav"
+  },
+  {
+    "name": "Lucky Cat",
+    "gender": "female",
+    "birth": "",
+    "feature": "Lucky Cat has a red color of luck. Her eyes as a laser for aiming",
+    "chat": ["Hi, my name is Lucky Cat.", "Please try a record."],
+    "category": "Gunimal",
+    "voiceId": "NubNuleena",
+    "thumb": "https://monster-static.voicechange.net/monsters/Lucky Cat.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Lucky Cat.wav"
+  },
+  {
+    "name": "Moose",
+    "gender": "male",
+    "birth": "",
+    "feature": "Moose is very big. He's bigger than a bus. He may look scary but he's very friendly",
+    "chat": [
+      "Hello my friend, I am Moose.",
+      "I'm so sad.",
+      "Can you record and say something to me?"
+    ],
+    "category": "Gunimal",
+    "voiceId": "Moose",
+    "thumb": "https://monster-static.voicechange.net/monsters/Moose.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Moose.wav"
+  },
+  {
+    "name": "Thornun",
+    "gender": "male",
+    "birth": "",
+    "feature": "Thornun may look a gun. But he can only create an electric shock in the surroundings.",
+    "chat": [
+      "Hello, this is Thornun.",
+      "Today is my birthday. Can you sing a birthday song for me?"
+    ],
+    "category": "Gunimal",
+    "voiceId": "Thornun",
+    "thumb": "https://monster-static.voicechange.net/monsters/Thornun.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Thornun.wav"
+  },
+  {
+    "name": "Pira",
+    "gender": "male",
+    "birth": "",
+    "feature": "Pira is small and live under water. He look like a pistol and has sharp teeth. So you must be careful when entering the water.",
+    "chat": ["Hello, there! I'm Pira.", "Would you like to talk with me?"],
+    "category": "Gunimal",
+    "voiceId": "Pira",
+    "thumb": "https://monster-static.voicechange.net/monsters/Pira.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Pira.wav"
+  },
+  {
+    "name": "White Wash",
+    "gender": "male",
+    "birth": "",
+    "feature": "White Wash is a good friend. But be careful when he hungry",
+    "chat": [
+      "Hello! I am White Wash.",
+      "I am boring.",
+      "Record your voice and I'll show you the surprise."
+    ],
+    "category": "Prank Family",
+    "voiceId": "Captain Feddliss",
+    "thumb": "https://monster-static.voicechange.net/monsters/White Wash.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/White Wash.wav"
+  },
+  {
+    "name": "Rusty Bag",
+    "gender": "female",
+    "birth": "",
+    "feature": "Rusty Bag is your friends. With her eye, she can watch your back. But she loves to tease you with many pranks.",
+    "chat": [
+      "Hi my new friend.",
+      "I am Rusty.",
+      "Write something for me, please."
+    ],
+    "category": "Prank Family",
+    "voiceId": "Slow Slainy",
+    "thumb": "https://monster-static.voicechange.net/monsters/Rusty Bag.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Rusty Bag.wav"
+  },
+  {
+    "name": "Houser",
+    "gender": "male",
+    "birth": "",
+    "feature": "Houser is a very big and funny house. You must make him happy and dance. The way home is under him.",
+    "chat": [
+      "Hello. My friends call me is Houser.",
+      "How are you today?",
+      "Send me your record and I will sing for you."
+    ],
+    "category": "Prank Family",
+    "voiceId": "Mr. Stinger",
+    "thumb": "https://monster-static.voicechange.net/monsters/Houser.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Houser.wav"
+  },
+  {
+    "name": "Rein Molf",
+    "gender": "male",
+    "birth": "",
+    "feature": "Rein Molf is really a monster. He look very scary with teeths and claws. He was Rudolph.",
+    "chat": [
+      "Hello, this is a auto message.",
+      "Just kiddings. I'm Rein Molf.",
+      "Ask me something, my friend!"
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "Jubo Jesh",
+    "thumb": "https://monster-static.voicechange.net/monsters/Rein Molf.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Rein Molf.wav"
+  },
+  {
+    "name": "Nightmare",
+    "gender": "male",
+    "birth": "",
+    "feature": "Nightmare is very dangerous. He usally hide on Mr Pumpkin's hole. All his body is a big mouth.",
+    "chat": ["Nightmare is not here.", "Leave a message, I will reply soon!"],
+    "category": "Legendary Monster",
+    "voiceId": "The Jestar",
+    "thumb": "https://monster-static.voicechange.net/monsters/Nightmare.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Nightmare.wav"
+  },
+  {
+    "name": "Gloves",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "Gloves is a yellow gloves with very sharp teeths. You can use Gloves to destroy obstacles.",
+    "chat": ["Hello!", "I am Gloves.", "I hate red. What about you?"],
+    "category": "Prank Family",
+    "voiceId": "Mr. Kabab Man",
+    "thumb": "https://monster-static.voicechange.net/monsters/Gloves.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Gloves.wav"
+  },
+  {
+    "name": "Drinker",
+    "gender": "male",
+    "birth": "",
+    "feature": "Drinker is a green energy can. Don't worry, he is friendly.",
+    "chat": [
+      "Hello! I am Drinker.",
+      "Do you want to play?",
+      "Record your voice and I'll show you the surprise."
+    ],
+    "category": "Prank Family",
+    "voiceId": "Coach Pockles",
+    "thumb": "https://monster-static.voicechange.net/monsters/Drinker.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Drinker.wav"
+  },
+  {
+    "name": "Suprise",
+    "gender": "male",
+    "birth": "",
+    "feature": "Suprise has a gift shape. He can't move. But he will beat you when you get close",
+    "chat": [
+      "Hello!",
+      "I'm Suprise.",
+      "Do you want to hear your voice different?"
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "Dom Dom",
+    "thumb": "https://monster-static.voicechange.net/monsters/Suprise.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Suprise.wav"
+  },
+  {
+    "name": "Hat Greet",
+    "gender": "male",
+    "birth": "",
+    "feature": "Hat Greet has a Hat shape. He is your friend. He can be use like a flashlight.",
+    "chat": [
+      "Hello. My friends call me is Hat Greet.",
+      "Do you want to talk with me?",
+      "Please send me your record!"
+    ],
+    "category": "Prank Family",
+    "voiceId": "Tall Vector",
+    "thumb": "https://monster-static.voicechange.net/monsters/Hat Greet.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Hat Greet.wav"
+  },
+  {
+    "name": "Roctapus",
+    "gender": "male",
+    "birth": "",
+    "feature": "Roctapus is very special. He can stand on the ground with 2 drills under his body and use his tentacles to everywhere. His tentacles can be up to 20 meters long",
+    "chat": ["Hi, Do you want to say something to Roctapus?"],
+    "category": "Animrobo",
+    "voiceId": "Bonnia the Bunny",
+    "thumb": "https://monster-static.voicechange.net/monsters/Roctapus.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Roctapus.wav"
+  },
+  {
+    "name": "Black",
+    "gender": "male",
+    "birth": "",
+    "feature": "Black is older brother of White and Panda. He is tall and likes to walk or run on its hind legs. When he chasing you, avoid looking him in the eye, slowly raise your hand, talk normally and gradually step back.",
+    "chat": ["Hello! I am Black.", "Do you want to play with your voice?"],
+    "category": "Animrobo",
+    "voiceId": "Fraddy Fezbear",
+    "thumb": "https://monster-static.voicechange.net/monsters/Black.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Black.wav"
+  },
+  {
+    "name": "Panda",
+    "gender": "unknown",
+    "birth": "",
+    "feature": "Panda is younger than Black. He is very lazy. Don't worry when he chasing you, he just want a hug from you. But be careful, Panda has a very tight hug.",
+    "chat": [
+      "Hello!!! I am Panda.",
+      "Can you play with me? Try to record. I will surprise you."
+    ],
+    "category": "Animrobo",
+    "voiceId": "Fexy the Pirate Fox",
+    "thumb": "https://monster-static.voicechange.net/monsters/Panda.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Panda.wav"
+  },
+  {
+    "name": "Mr White",
+    "gender": "male",
+    "birth": "",
+    "feature": "White is younger brother of Black and Panda. He gets angry always. He likes to run on all four legs so she very fast.",
+    "chat": [
+      "Hello my friend, I am Fraddon.",
+      "I'm so sad.",
+      "Can you record and say something to me?"
+    ],
+    "category": "Animrobo",
+    "voiceId": "Golden Fraddy",
+    "thumb": "https://monster-static.voicechange.net/monsters/Mr White.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Mr White.wav"
+  },
+  {
+    "name": "Peguino",
+    "gender": "female",
+    "birth": "",
+    "feature": "Peguino is a nanobot peguin. She can't fly but she swim very fast. On the ground, she can change into ball shape.",
+    "chat": ["Hello. Peguino is here. ", "Do you want to say something to me?"],
+    "category": "Animrobo",
+    "voiceId": "Chico the Chicken",
+    "thumb": "https://monster-static.voicechange.net/monsters/Peguino.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Peguino.wav"
+  },
+  {
+    "name": "Tigero",
+    "gender": "male",
+    "birth": "",
+    "feature": "Tigero is a King of Animrobo. He stronger than Black, faster than Cheeze. He can attack by sonic.",
+    "chat": ["Hello, there!", "I am Tigero.", "Can you send me something?"],
+    "category": "Animrobo",
+    "voiceId": "Nightmare Fraddles",
+    "thumb": "https://monster-static.voicechange.net/monsters/Tigero.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Tigero.wav"
+  },
+  {
+    "name": "Wolftank",
+    "gender": "male",
+    "birth": "",
+    "feature": "Wolftank is a panzer-dog. He use tank wheel to move very fast. But he difficult to turn. You can't hide from him because he has a radar on his back.",
+    "chat": [
+      "Hello. I am Wolftank.",
+      "I want to hug you.",
+      "Don't you like this? Ok, please record to tell me why."
+    ],
+    "category": "Animrobo",
+    "voiceId": "Badybib",
+    "thumb": "https://monster-static.voicechange.net/monsters/Wolftank.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Wolftank.wav"
+  },
+  {
+    "name": "Cheeze",
+    "gender": "female",
+    "birth": "",
+    "feature": "Cheeze is a beautiful panther. She is very heavy but he can run as fast as a race car.",
+    "chat": [
+      "Hello. I am Cheeze. Nice to meet you!",
+      "Do you want to play with your voice?"
+    ],
+    "category": "Animrobo",
+    "voiceId": "Badygirl Baby",
+    "thumb": "https://monster-static.voicechange.net/monsters/Cheeze.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Cheeze.wav"
+  },
+  {
+    "name": "Gatlinghog",
+    "gender": "male",
+    "birth": "",
+    "feature": "Gatlinghog has a strong legs. He run not fast but be careful his gun. Normally his gun is drawn inside",
+    "chat": [
+      "Hi, nice to meet you.",
+      "I am Gatlinghog.",
+      "I can change your voice. Just send me a record. Try it!"
+    ],
+    "category": "Gunimal",
+    "voiceId": "The Pappet",
+    "thumb": "https://monster-static.voicechange.net/monsters/Gatlinghog.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Gatlinghog.wav"
+  },
+  {
+    "name": "Dinogun",
+    "gender": "female",
+    "birth": "",
+    "feature": "Dinogun has a gun on her nose. She is very big, like a dinosaur.",
+    "chat": [
+      "Hello, I am Dinogun",
+      "I like playing guitar. But I don't have arms.",
+      "Can you sing a song for me?"
+    ],
+    "category": "Gunimal",
+    "voiceId": "Mommy Mommy",
+    "thumb": "https://monster-static.voicechange.net/monsters/Dinogun.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Dinogun.wav"
+  },
+  {
+    "name": "Megg",
+    "gender": "male",
+    "birth": "",
+    "feature": "Megg is brother of Mogg. He is an easter egg. But he like meat so much.",
+    "chat": [
+      "Hello!",
+      "You can call me Megg.",
+      "Just try to record. I will show you special!"
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "Hoggy Woggy",
+    "thumb": "https://monster-static.voicechange.net/monsters/Megg.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Megg.wav"
+  },
+  {
+    "name": "Mogg",
+    "gender": "female",
+    "birth": "",
+    "feature": "Mogg is sister of Megg. She is an easter egg. Like her brother, she like meat so much",
+    "chat": ["Hello, I am Mogg", "Can you record and say something to me?"],
+    "category": "Legendary Monster",
+    "voiceId": "Hoggy Messy",
+    "thumb": "https://monster-static.voicechange.net/monsters/Mogg.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Mogg.wav"
+  },
+  {
+    "name": "Mr Pumpkin",
+    "gender": "male",
+    "birth": "",
+    "feature": "Mr Pumpkin has body and head is pumpkin. He always take a shovel. You can hide in the holes he dug.",
+    "chat": [
+      "Hello! My name is Mr Pumpkin.",
+      "Nice to meet you. Can you give me your record."
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "PJ Pillar",
+    "thumb": "https://monster-static.voicechange.net/monsters/Mr Pumpkin.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Mr Pumpkin.wav"
+  },
+  {
+    "name": "Eaglobot",
+    "gender": "male",
+    "birth": "",
+    "feature": "Eaglobot can fly. Although he is an eagle, but he small like a bird. Be careful your head when he flies.",
+    "chat": ["Hi, My name is Eaglobot.", "Please try to record your voice."],
+    "category": "Animrobo",
+    "voiceId": "Bonzu Bunny",
+    "thumb": "https://monster-static.voicechange.net/monsters/Eaglobot.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Eaglobot.wav"
+  },
+  {
+    "name": "Mr Klaus",
+    "gender": "male",
+    "birth": "",
+    "feature": "Mr Klaus wears a red Christmas outfit. And do you know what? Mr Klaus was a Santa",
+    "chat": [
+      "Hello! I'm Mr Klaus.",
+      "I really like you.",
+      "Record for me something, please."
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "Brun",
+    "thumb": "https://monster-static.voicechange.net/monsters/Mr Klaus.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Mr Klaus.wav"
+  },
+  {
+    "name": "Pine Mon",
+    "gender": "male",
+    "birth": "",
+    "feature": "Pine Mon is a pine tree friend. He can help you in many cases. He always wears a red Christmas hat. Do not confuse him with other pine trees",
+    "chat": [
+      "Hello my friend, I am Pine Mon.",
+      "I'm so sad.",
+      "Everyone don't want to play with me. What about you?"
+    ],
+    "category": "Legendary Monster",
+    "voiceId": "Beegio Bot",
+    "thumb": "https://monster-static.voicechange.net/monsters/Pine Mon.png",
+    "demoVoice": "https://monster-static.voicechange.net/demo-voices/Pine Mon.wav"
+  }
+]

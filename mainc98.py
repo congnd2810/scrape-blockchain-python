@@ -18,24 +18,9 @@ seriesTheSpotlight = 'https://coin98.net/series/the-spotlight-9jc8e340'
 seriesTheTruth = 'https://coin98.net/series/the-truth-0zwmyto6'
 seriesTheModel = 'https://coin98.net/series/the-model-ymf87gux'
 
-cryptoForNewUser = 'https://coin98.net/learn/detail?subCategories=sArw6zod-GEBe1wqSqhVY'
-
-muabancrypto_muaban = 'https://coin98.net/portal/detail?subCategories=5KvrQI-Y24NNPWmg2_Q-A'
-muabancrypto_luutru = 'https://coin98.net/portal/detail?subCategories=Dxu4Z67Ve3vruiTN0gWhU'
-muabancrypto_baomat = 'https://coin98.net/portal/detail?subCategories=v2rwXKiObxBcUX6nnHiEF'
-
-blockchainAndDefi_blockchain = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BFjKTl0K31jSczhrRFYhba'
-blockchainAndDefi_defi = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2B97zoZWdmIokqWngLCc-RU'
-blockchainAndDefi_hesinhthai = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BWs3ydS3YLTIkjvbgLVvPq'
-
-kttc_tochuctaichinh = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BThJJ3rAG-2Da_i729N_cr'
-kttc_sk = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2BwlKv8SwWvOVGQAAmmwdeI'
-
-trading = 'https://coin98.net/portal/detail?subCategories=8auPKC6EykdYJy84dzEfw%2Bj_XEoJCAGTKSUESE0Z1gf%2BN2konauHE-iDOkRmHgvys'
-
-
 report = 'https://coin98.net/report'
 inside_coin98 = 'https://coin98.net/inside-coin98'
+
 
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
@@ -66,7 +51,7 @@ articlesLength = 0
 count = 0
 
 while True:
-    # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
     '''lấy bài c98 các mục có option tích
     div_element_to_scroll = driver.find_element(
         By.CSS_SELECTOR, '#layout-normal-minHeight > main > div > div.style_contentWrapper__ixUnP.style_isCoin98__TqZ_W.style_content__TK5yo')
@@ -133,7 +118,7 @@ while True:
 #     listUrlArticales.append(newUrl)
 
 for a in articles:
-    # urlArticle = a.find_element(By.CSS_SELECTOR, "a")
+    urlArticle = a.find_element(By.CSS_SELECTOR, "a")
     newUrl = a.get_attribute('href')
     listUrlArticales.append(newUrl)
 

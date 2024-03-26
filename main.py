@@ -32,6 +32,7 @@ listUrlArticales = []
 count = 0
 while True:
     cssSelector = f"#layout-normal-minHeight > main > div:nth-child(2) > div > div.style_customRow__l_Y1O.row > div:nth-child(24)"
+    #channel-body > div > div > div.flex.flex-wrap
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(2)
     # wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, cssSelector)))
